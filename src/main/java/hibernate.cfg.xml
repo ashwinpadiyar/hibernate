@@ -14,7 +14,7 @@
 			it need to create, in our case MySQL specific queries will be created for 
 			CRUD operations -->
 
-		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
 
 		<!-- This will help us to create and update tables when needed, we can 
 			use "create", that will always try to create database tables and delete it 
@@ -25,5 +25,7 @@
 		<!-- This property will help us to know the queries created by hibernate -->
 
 		<property name="show_sql">true</property>
+		
+		<mapping class = "hibernate.Student"/>
 	</session-factory>
 </hibernate-configuration>
