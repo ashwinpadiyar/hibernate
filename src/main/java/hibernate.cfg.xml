@@ -20,12 +20,13 @@
 			use "create", that will always try to create database tables and delete it 
 			once done -->
 
-		<property name="hbm2ddl.auto">update</property>
+		<property name="hbm2ddl.auto">create</property>
 
 		<!-- This property will help us to know the queries created by hibernate -->
 
 		<property name="show_sql">true</property>
 		
 		<mapping class = "hibernate.Student"/>
+		<mapping class = "hibernate.Address"/>
 	</session-factory>
 </hibernate-configuration>
