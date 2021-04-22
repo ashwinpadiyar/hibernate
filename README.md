@@ -42,9 +42,11 @@
 ## Fetch data from database
 -   Hibernate framework provides methods to get data from the database.
     -   get() 
+        -   
 			- If the object cannot be found, it returns null.
 			- Tries to fetch from session cache, if not found, hits the database.
     -   load()
+        - 
             - ObjectsNotFoundException is thrown if they do not exist when we retrieve them.
             - Whenever load() is called, it creates a dummy or proxy object. 
             - If any method is called on entity object other than getID(), then initialization or obtaining data from the database will occur.
