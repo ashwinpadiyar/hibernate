@@ -31,10 +31,10 @@
 ``` 
 - As a result, the entity name will be "Student" and the database table will be "students".
 
-'''
+```
 	@Entity
 	public class Student {
 		@Id
 		private int id;
-'''
+```
 - [Commonly used hibernate annotations](https://dzone.com/articles/all-hibernate-annotations-mapping-annotations)
