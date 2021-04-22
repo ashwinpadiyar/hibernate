@@ -20,7 +20,7 @@
 			use "create", that will always try to create database tables and delete it 
 			once done -->
 
-		<property name="hbm2ddl.auto">create</property>
+		<property name="hbm2ddl.auto">update</property>
 
 		<!-- This property will help us to know the queries created by hibernate -->
 

@@ -44,5 +44,6 @@ public class App {
 		session.save(address);
 		transaction.commit();
 		session.close();
+		factory.close();
 	}
 }
